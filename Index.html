@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071b49">
+  <meta name="description" content="Forttus Pay — soluções digitais em pagamentos para negócios.">
+  <title>Forttus Pay | Pagamentos digitais</title>
+  <style>
+    :root{--navy:#071b49;--blue:#1459d9;--cyan:#45b8ff;--ink:#13213b;--muted:#63718a;--bg:#f4f7fc;--white:#fff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+    a{text-decoration:none}
+    .topbar{background:var(--navy);color:#fff}
+    .nav{max-width:1120px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:10px;color:#fff;min-width:0}
+    .logo{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--cyan),var(--blue));display:grid;place-items:center;font-weight:900;font-size:20px;flex:0 0 auto}
+    .brand-name{font-weight:800;font-size:20px;letter-spacing:.2px;white-space:nowrap}
+    .nav-action{display:inline-flex;align-items:center;justify-content:center;background:#fff;color:var(--navy);font-weight:700;font-size:13px;padding:9px 13px;border-radius:9px;white-space:nowrap;flex:0 0 auto}
+    .hero{background:linear-gradient(135deg,#071b49 0%,#103f9e 62%,#1677dc 100%);color:#fff;padding:72px 22px 82px}
+    .wrap{max-width:1120px;margin:auto}
+    .eyebrow{color:#a8dfff;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+    h1{font-size:clamp(34px,6vw,56px);line-height:1.08;max-width:760px;margin:14px 0 18px}
+    .hero p{max-width:650px;color:#e1edff;font-size:18px;margin:0 0 28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;background:#fff;color:var(--navy);padding:13px 20px;border-radius:10px;font-weight:800;white-space:nowrap}
+    .section{padding:62px 22px}
+    .section h2{font-size:30px;color:var(--navy);margin:0 0 12px}
+    .lead{color:var(--muted);max-width:720px;margin:0 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;border:1px solid #e5ebf5;border-radius:16px;padding:24px;box-shadow:0 8px 24px rgba(10,35,80,.05)}
+    .card h3{margin:8px 0;color:var(--navy);font-size:19px}
+    .card p{margin:0;color:var(--muted)}
+    .symbol{width:42px;height:42px;border-radius:12px;background:#e8f2ff;color:var(--blue);display:grid;place-items:center;font-size:21px;font-weight:900}
+    .steps{counter-reset:step}
+    .step{position:relative;padding-left:58px;margin:22px 0}
+    .step:before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0;width:40px;height:40px;display:grid;place-items:center;border-radius:50%;background:#e4efff;color:var(--blue);font-weight:900}
+    .contact{background:#eaf1fc}
+    .contact-box{max-width:720px;background:#fff;border-radius:18px;padding:28px;border:1px solid #dce6f5}
+    .contact-box p{color:var(--muted)}
+    .contact-link{display:inline-block;margin-top:10px;background:var(--blue);color:#fff;padding:12px 18px;border-radius:9px;font-weight:700}
+    footer{background:var(--navy);color:#c9d7f2;padding:28px 22px;text-align:center;font-size:13px}
+    @media(max-width:700px){
+      .nav{padding:12px 15px;gap:10px}
+      .logo{width:33px;height:33px;border-radius:9px;font-size:17px}
+      .brand{gap:8px}
+      .brand-name{font-size:17px}
+      .nav-action{font-size:12px;padding:8px 10px}
+      .hero{padding:55px 20px 62px}
+      .hero p{font-size:16px}
+      .section{padding:48px 20px}
+      .grid{grid-template-columns:1fr}
+      .section h2{font-size:26px}
+    }
+    @media(max-width:360px){.brand-name{font-size:15px}.nav-action{font-size:11px;padding:7px 8px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="Navegação principal">
+      <a class="brand" href="#" aria-label="Forttus Pay início">
+        <span class="logo">F</span><span class="brand-name">Forttus Pay</span>
+      </a>
+      <a class="nav-action" href="#contato">Tenho interesse</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Pagamentos digitais</div>
+        <h1>Mais praticidade para movimentar seu negócio.</h1>
+        <p>A Forttus Pay está construindo soluções digitais para simplificar a experiência de pagamentos de empresas e empreendedores.</p>
+        <a class="btn" href="#contato">Fale com a Forttus Pay</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Soluções em desenvolvimento</h2>
+        <p class="lead">Estamos estruturando uma plataforma com foco em praticidade, clareza e tecnologia para negócios.</p>
+        <div class="grid">
+          <article class="card"><div class="symbol">↗</div><h3>Pagamentos digitais</h3><p>Uma experiência simples para acompanhar a evolução dos pagamentos do seu negócio.</p></article>
+          <article class="card"><div class="symbol">⌁</div><h3>Gestão facilitada</h3><p>Estrutura pensada para ajudar empresas a organizar sua rotina financeira.</p></article>
+          <article class="card"><div class="symbol">盾</div><h3>Foco em segurança</h3><p>Desenvolvimento responsável, com atenção à proteção de dados e às boas práticas.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:#fff">
+      <div class="wrap">
+        <h2>Como queremos ajudar</h2>
+        <p class="lead">Nosso objetivo é construir uma jornada clara para quem deseja conhecer e utilizar soluções de pagamento.</p>
+        <div class="steps">
+          <div class="step"><h3>Conheça a proposta</h3><p class="lead">Entenda as soluções que estamos planejando para negócios e empreendedores.</p></div>
+          <div class="step"><h3>Converse com nossa equipe</h3><p class="lead">Envie seu interesse para acompanhar as novidades do projeto.</p></div>
+          <div class="step"><h3>Acompanhe as novidades</h3><p class="lead">Estamos trabalhando para evoluir a plataforma de forma responsável.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="wrap">
+        <div class="contact-box">
+          <h2>Tenha interesse na Forttus Pay?</h2>
+          <p>Entre em contato para saber mais sobre o projeto e acompanhar as próximas novidades.</p>
+          <a class="contact-link" href="mailto:Payforttus@gmail.com?subject=Interesse%20na%20Forttus%20Pay">Enviar e-mail</a>
+          <p style="font-size:12px;margin-top:18px">Para ativar o contato, Contato: Payforttus@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Forttus Pay. Todos os direitos reservados.<br>
+    Site institucional em desenvolvimento. Esta página não realiza nem intermedia pagamentos e não armazena dados financeiros.
+  </footer>
+</body>
+</html>
