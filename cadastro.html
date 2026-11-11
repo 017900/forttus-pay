@@ -1,1 +1,53 @@
-cadastro.html
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro | Forttus Pay</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f1f5fb;color:#172b4d}
+header{background:#102b55;color:white;padding:24px;text-align:center}
+header h1{margin:0;color:#54a4ff}
+main{max-width:480px;margin:35px auto;padding:28px;background:white;border-radius:14px;box-shadow:0 5px 20px #00000012}
+h2{text-align:center}
+p{color:#64748b;text-align:center}
+label{display:block;margin:15px 0 6px;font-weight:bold}
+input{width:100%;padding:13px;border:1px solid #ccd6e3;border-radius:7px;font-size:16px}
+button{width:100%;margin-top:24px;padding:15px;border:0;border-radius:7px;background:#1769c2;color:white;font-size:16px;font-weight:bold}
+.aviso{font-size:12px;line-height:1.5;margin-top:20px}
+footer{text-align:center;padding:20px;color:#64748b;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<h1>FORTTUS PAY</h1>
+<p style="color:white">Sua plataforma de pagamentos</p>
+</header>
+<main>
+<h2>Criar minha conta</h2>
+<p>Preencha seus dados para conhecer a Forttus Pay.</p>
+<form onsubmit="event.preventDefault();alert('Cadastro demonstrativo. Não há criação de conta real ainda.');">
+<label>Nome completo</label>
+<input type="text" placeholder="Seu nome" required>
+<label>Nome da empresa</label>
+<input type="text" placeholder="Nome do negócio" required>
+<label>E-mail</label>
+<input type="email" placeholder="Seu e-mail" required>
+<label>Telefone</label>
+<input type="tel" placeholder="(00) 00000-0000" required>
+<label>CPF ou CNPJ</label>
+<input type="text" placeholder="CPF ou CNPJ" required>
+<label>Criar senha</label>
+<input type="password" placeholder="Crie uma senha" required>
+<label>Confirmar senha</label>
+<input type="password" placeholder="Repita sua senha" required>
+<button type="submit">Criar minha conta</button>
+</form>
+<p class="aviso">Página demonstrativa em desenvolvimento. Não armazena dados nem cria contas reais. Não informe documentos ou senhas verdadeiros.</p>
+</main>
+<footer>Forttus Pay © 2026</footer>
+</body>
+</html>
